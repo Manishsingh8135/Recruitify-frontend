@@ -51,7 +51,7 @@ export const JobCard: React.FC<JobCardProps> = ({ className, jobData, ...props }
                     </Avatar>
                 <div>
 
-                <div className="flex space-x-2 gap-2">
+                <div className="flex space-x-2 ">
                     <p className="">Skills:</p>
                     {jobData.skills.map((skill, index) => (
                         <Badge key={index} >
